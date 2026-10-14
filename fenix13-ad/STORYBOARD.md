@@ -47,3 +47,54 @@
 - on screen: FENIX /13 / BBQ • BAR • RESTAURANT / COMING SOON / TAUNGGYI, SHAN STATE / THE NIGHT COMES ALIVE.
 - role: land the name, campaign, location, and lasting emotional promise.
 - motion: slash draw, letter assembly, sheen pass, long readable hold.
+
+# Version 2 — Night Ignition / 2026-10-14
+
+## Frame 1 — Ignition
+- status: animated
+- src: compositions/v2-hook.html
+- duration: 3s
+- poster: 2.3s
+- motion: character cascade and masked type, kinetic-beat-slam / svg-path-draw.
+Ember ignition introduces TAUNGGYI, SOMETHING IS HEATING UP.
+
+## Frame 2 — Fire
+- status: animated
+- src: compositions/v2-fire.html
+- duration: 3s
+- poster: 1.5s
+- motion: 3d-text-depth-layers, shallow perspective arrival.
+FIRE UP THE GRILL lands with distinct layers and axes, resolves sharply, and holds.
+
+## Frame 3 — Attitude
+- status: animated
+- src: compositions/v2-attitude.html
+- duration: 3s
+- poster: 2.3s
+- motion: discrete-text-sequence, masked slot change.
+BOLD FLAVOUR changes into AFTER DARK on the 7.5s musical subdivision.
+
+## Frame 4 — Energy
+- status: animated
+- src: compositions/v2-energy.html
+- duration: 3s
+- poster: 2.6s
+- motion: kinetic-beat-slam, different entry axes and easing.
+SMOKE, SPARK, ENERGY arrive on successive 120 BPM downbeats at 9, 10, 11 seconds.
+
+## Frame 5 — Social
+- status: animated
+- src: compositions/v2-social.html
+- duration: 3s
+- poster: 2.5s
+- motion: staggered masked stacking on eighth-note subdivisions.
+GOOD FOOD, GOOD VIBES, GREAT NIGHTS build at 12, 12.75, 13.5 seconds.
+
+## Frame 6 — Brand
+- status: animated
+- src: compositions/v2-brand.html
+- duration: 5s
+- poster: 3.5s
+- motion: logo-assemble-lockup, svg-path-draw.
+A copper slash rotates into view, then the FENIX /13 lockup and COMING SOON
+resolve. Location and tagline complete by 17.7 seconds and hold to the end.

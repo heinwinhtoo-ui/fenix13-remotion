@@ -27,3 +27,15 @@ Use an original locally synthesized electronic score with low bass impacts, filt
 ## Delivery
 
 1080×1920, 30 fps, exactly 20 seconds, H.264 MP4. Preserve editable HTML/CSS/JavaScript/GSAP source and local assets.
+
+## Version 2 — Night Ignition / 2026-10-14
+
+User feedback: “ဒီထက်ပိုမိုက်တဲ့ ဟာလုပ်ပေးပါ” — create a more impressive version.
+The redesign uses larger Anton display type, a custom heavy Montserrat FENIX /13
+lockup, a copper vector slash with DOM perspective, continuous procedural light
+ribbons, orbit fragments and sparse embers, full diagonal curtain transitions,
+and six separately editable scenes. The original six story beats and exact
+20-second 9:16 format are retained. The new original score is composed at 120 BPM
+in F minor from mathematical oscillators and seeded noise, with no external samples.
+Version 1 source is preserved at versions/v1.html; its original MP4 remains at the
+repository root. Fonts and GSAP are bundled locally for offline browser rendering.

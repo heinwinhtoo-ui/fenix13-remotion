@@ -1,0 +1,25 @@
+<!doctype html><html><body><template>
+<style>
+#v2-transitions{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+#v2-wipe,.v2-wipe-panel{position:absolute;inset:0;width:100%;height:100%;opacity:0}
+#v2-wipe svg,.v2-wipe-panel svg{display:block;width:100%;height:100%;overflow:visible}
+#v2-streak{position:absolute;left:0;top:0;width:100%;height:100%;opacity:0}
+#v2-streak svg{width:100%;height:100%;display:block}
+</style>
+<div data-hf-id="hf-2io4" id="v2-transitions" data-composition-id="v2-transitions" data-width="1080" data-height="1920" data-duration="20" aria-hidden="true">
+<div data-hf-id="hf-bdn8" id="v2-wipe" data-layout-allow-overflow><svg data-hf-id="hf-u6jg" viewBox="0 0 1080 1920"><path data-hf-id="hf-syqx" d="M-500 -80H2400L1700 2000H-1200Z" fill="#ff6b20"/><path data-hf-id="hf-i8s5" d="M-590 -80H-520L-1220 2000H-1290Z" fill="#ffd396"/></svg></div>
+<div data-hf-id="hf-ynvs" id="v2-streak"><svg data-hf-id="hf-msgk" viewBox="0 0 1080 1920"><path data-hf-id="hf-77bp" d="M1040 -80L320 2000" stroke="#ff6b20" stroke-width="38"/><path data-hf-id="hf-an8y" d="M1000 -80L280 2000" stroke="#ffd396" stroke-width="3"/></svg></div>
+</div>
+<script>(()=>{const tl=gsap.timeline({paused:true});
+const prototype=document.getElementById('v2-wipe');
+[3,6,9,12,15].forEach((at,i)=>{
+const panel=i===0?prototype:prototype.cloneNode(true);
+if(i>0){panel.id='v2-wipe-'+i;panel.className='v2-wipe-panel';document.getElementById('v2-transitions').appendChild(panel);}
+tl.fromTo(panel,{x:-3400,opacity:0},{x:0,opacity:1,duration:.24,ease:'power4.in'},at-.24);
+tl.to(panel,{x:3400,duration:.29,ease:'power4.out'},at+.018);
+tl.to(panel,{opacity:0,duration:.01,ease:'none'},at+.32);
+});
+tl.fromTo('#v2-streak',{x:-1500,opacity:0},{x:1450,opacity:1,duration:.25,ease:'power4.in'},7.34);
+tl.to('#v2-streak',{opacity:0,duration:.08},7.6);
+window.__timelines['v2-transitions']=tl;})();</script>
+</template></body></html>

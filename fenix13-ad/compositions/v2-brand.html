@@ -1,0 +1,40 @@
+<!doctype html><html><body><template>
+<style>
+#v2-brand{position:absolute;inset:0;width:100%;height:100%;perspective:2000px}
+#brand-emblem{position:absolute;left:380px;top:350px;width:320px;height:340px;transform-style:preserve-3d}
+#brand-emblem svg{width:100%;height:100%;overflow:visible}
+#brand-emblem-glow{position:absolute;inset:0;filter:blur(22px);opacity:.48}
+#brand-lockup{position:absolute;left:112px;top:810px;width:856px;text-align:center}
+#brand-logo{font-family:"Montserrat",sans-serif;font-weight:900;font-size:180px;letter-spacing:-.065em;white-space:nowrap;line-height:1.15;text-align:center}
+#brand-logo .slash13{color:var(--orange);margin-left:12px}
+#brand-category{font-size:31px;letter-spacing:.115em;margin-top:28px;color:var(--cream)}
+#brand-line{width:100%;height:2px;background:var(--copper);margin-top:65px;transform-origin:center}
+#brand-coming{font-size:135px;letter-spacing:.015em;white-space:nowrap;margin-top:60px;color:var(--orange)}
+#brand-location{font-size:29px;letter-spacing:.075em;margin-top:25px;color:var(--cream)}
+#brand-tagline{position:absolute;left:118px;top:1518px;width:844px;font-size:29px;letter-spacing:.105em;text-align:center;color:var(--muted)}
+#brand-smallslash{position:absolute;left:518px;top:1690px;width:44px;height:3px;background:var(--orange);transform-origin:center}
+</style>
+<div data-hf-id="hf-ucye" id="v2-brand" data-composition-id="v2-brand" data-width="1080" data-height="1920" data-duration="5">
+<div data-hf-id="hf-wx18" id="brand-emblem" aria-hidden="true"><svg data-hf-id="hf-tw6r" viewBox="0 0 320 340"><defs data-hf-id="hf-mh0t"><linearGradient data-hf-id="hf-6aw7" id="brand-copper-gradient" x1="0" y1="1" x2="1" y2="0"><stop data-hf-id="hf-jj82" offset="0" stop-color="#a84320"/><stop data-hf-id="hf-03us" offset=".35" stop-color="#ff6b20"/><stop data-hf-id="hf-t4p1" offset=".58" stop-color="#ffd396"/><stop data-hf-id="hf-1904" offset=".64" stop-color="#fff2dd"/><stop data-hf-id="hf-h072" offset=".73" stop-color="#ff6b20"/><stop data-hf-id="hf-8evh" offset="1" stop-color="#a84320"/></linearGradient></defs>
+<path data-hf-id="hf-sh25" id="brand-emblem-side" d="M186 39L236 59L134 316L88 294Z" fill="#a84320"/>
+<path data-hf-id="hf-vobj" id="brand-emblem-face" d="M167 25L216 44L111 306L63 288Z" fill="url(#brand-copper-gradient)"/>
+<path data-hf-id="hf-g6j9" id="brand-emblem-edge" d="M168 25L64 289" stroke="#ffd396" stroke-width="3" fill="none"/>
+</svg></div>
+<div data-hf-id="hf-ybhr" id="brand-lockup"><h1 data-hf-id="hf-ald6" id="brand-logo">FENIX<span data-hf-id="hf-kxo5" class="slash13">/13</span></h1><div data-hf-id="hf-q726" id="brand-category" class="sans">BBQ • BAR • RESTAURANT</div><div data-hf-id="hf-67d3" id="brand-line"></div><div data-hf-id="hf-dolc" class="mask"><div data-hf-id="hf-6p43" id="brand-coming" class="type">COMING SOON</div></div><div data-hf-id="hf-8fsj" id="brand-location" class="mono">TAUNGGYI, SHAN STATE</div></div>
+<div data-hf-id="hf-nmo2" id="brand-tagline" class="sans">THE NIGHT COMES ALIVE.</div><div data-hf-id="hf-oi15" id="brand-smallslash"></div>
+</div>
+<script>(()=>{const tl=gsap.timeline({paused:true});
+const face=document.getElementById('brand-emblem-edge');const len=face.getTotalLength();face.style.strokeDasharray=String(len);face.style.strokeDashoffset=String(len);
+tl.fromTo('#brand-emblem',{rotationY:-55,rotationX:12,z:380,scale:1.8,opacity:0},{rotationY:0,rotationX:0,z:0,scale:1,opacity:1,duration:1.04,ease:'expo.out'},.06);
+tl.fromTo('#brand-emblem-face',{opacity:0},{opacity:1,duration:.6,ease:'power3.out'},.08);
+tl.to('#brand-emblem-edge',{strokeDashoffset:0,duration:.7,ease:'power2.out'},.15);
+tl.fromTo('#brand-logo',{y:65,opacity:0,scale:.9},{y:0,opacity:1,scale:1,duration:.7,ease:'expo.out'},.52);
+tl.fromTo('#brand-category',{y:25,opacity:0},{y:0,opacity:1,duration:.45,ease:'power3.out'},1.03);
+tl.fromTo('#brand-line',{scaleX:0},{scaleX:1,duration:.65,ease:'power3.out'},1.1);
+tl.fromTo('#brand-coming',{y:145},{y:0,duration:.58,ease:'expo.out'},1.35);
+tl.fromTo('#brand-location',{opacity:0,y:18},{opacity:1,y:0,duration:.45,ease:'power2.out'},1.77);
+tl.fromTo('#brand-tagline',{opacity:0},{opacity:1,duration:.55,ease:'power2.out'},2.16);
+tl.fromTo('#brand-smallslash',{scaleX:0},{scaleX:1,duration:.5,ease:'power3.out'},2.55);
+tl.to('#brand-emblem',{rotationY:10,rotationX:-3,y:-8,duration:3.3,ease:'sine.inOut'},1.65);
+window.__timelines['v2-brand']=tl;})();</script>
+</template></body></html>

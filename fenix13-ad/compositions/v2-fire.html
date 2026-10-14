@@ -1,0 +1,29 @@
+<!doctype html><html><body><template>
+<style>
+#v2-fire{position:absolute;inset:0;width:100%;height:100%;perspective:1500px}
+#fire-layout{position:absolute;left:118px;top:450px;width:844px;transform-style:preserve-3d}
+#fire-top{font-size:380px;line-height:1.05;position:relative;transform-style:preserve-3d;color:var(--cream)}
+#fire-middle{font-size:200px;letter-spacing:.03em;margin-top:5px}
+#fire-bottom{font-size:315px;position:relative;margin-top:15px;color:var(--orange);transform-style:preserve-3d}
+.fire-depth{position:absolute;inset:0;color:var(--copper);pointer-events:none}
+.fire-front{position:relative;display:block}
+#fire-rail{position:absolute;left:118px;top:1520px;width:844px;display:flex;gap:12px;align-items:center}
+#fire-rail i{height:10px;flex:1;background:var(--orange)}
+#fire-rail i:nth-child(2){height:4px;opacity:.5}#fire-rail i:nth-child(3){height:2px;opacity:.3}
+</style>
+<div data-hf-id="hf-w13i" id="v2-fire" data-composition-id="v2-fire" data-width="1080" data-height="1920" data-duration="3">
+<div data-hf-id="hf-47v9" id="fire-label" class="small-label mono">FEEL THE HEAT</div>
+<div data-hf-id="hf-tbx0" id="fire-layout"><div data-hf-id="hf-fiea" id="fire-top" class="type" data-layout-allow-overlap><span data-hf-id="hf-dnnq" class="fire-depth" aria-hidden="true" data-layout-allow-occlusion>FIRE</span><span data-hf-id="hf-aeor" class="fire-front">FIRE</span></div><div data-hf-id="hf-dolc" class="mask"><div data-hf-id="hf-7ix2" id="fire-middle" class="type">UP THE</div></div><div data-hf-id="hf-e2v4" id="fire-bottom" class="type" data-layout-allow-overlap><span data-hf-id="hf-icik" class="fire-depth" aria-hidden="true" data-layout-allow-occlusion>GRILL.</span><span data-hf-id="hf-jc4h" class="fire-front">GRILL.</span></div></div>
+<div data-hf-id="hf-sl83" id="fire-rail" aria-hidden="true"><i data-hf-id="hf-wt6k"></i><i data-hf-id="hf-zeb8"></i><i data-hf-id="hf-y7e5"></i></div><div data-hf-id="hf-kb2r" id="fire-footer" class="scene-footer mono">BBQ · FIRE · FLAVOUR</div>
+</div>
+<script>(()=>{const tl=gsap.timeline({paused:true});
+tl.fromTo('#fire-top',{y:-70,z:360,rotationY:-24,opacity:0},{y:0,z:0,rotationY:0,opacity:1,duration:.65,ease:'expo.out'},.10);
+tl.fromTo('#fire-top .fire-depth',{x:36,y:24,z:-30,opacity:0},{x:5,y:7,z:-30,opacity:.6,duration:.55,ease:'power3.out'},.12);
+tl.fromTo('#fire-middle',{y:275},{y:0,duration:.48,ease:'power4.out'},.42);
+tl.fromTo('#fire-bottom',{x:220,y:40,rotationY:20,opacity:0},{x:0,y:0,rotationY:0,opacity:1,duration:.65,ease:'expo.out'},.62);
+tl.fromTo('#fire-bottom .fire-depth',{x:30,y:30,z:-20,opacity:0},{x:5,y:7,z:-20,opacity:.6,duration:.6,ease:'power3.out'},.68);
+tl.fromTo('#fire-rail i',{scaleX:0,transformOrigin:'left'},{scaleX:1,duration:.6,stagger:.1,ease:'power4.out'},1.05);
+tl.fromTo('#fire-label,#fire-footer',{opacity:0},{opacity:1,duration:.42,stagger:.25,ease:'power2.out'},.83);
+tl.to('#fire-layout',{scale:1.028,x:4,y:-8,duration:1.3,ease:'sine.inOut'},1.45);
+window.__timelines['v2-fire']=tl;})();</script>
+</template></body></html>
