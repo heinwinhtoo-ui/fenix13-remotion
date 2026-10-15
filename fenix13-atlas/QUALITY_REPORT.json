@@ -1,0 +1,21 @@
+{
+  "file": "FENIX13_CHILL_GRILL_V5_60FPS.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 1920,
+  "duration": 32,
+  "video_codec": "H.264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "AAC",
+  "sample_rate": 48000,
+  "channels": 2,
+  "full_decode": "PASS",
+  "fast_start": true,
+  "bytes": 10250460,
+  "sha256": "bb535d2925aa3144ca46b627c2c8223a100e648586dda43aa6d474b4ba691175",
+  "audio_master_correlation": 0.9999940995133652,
+  "decoded_audio_sample_peak_dbfs": -2.69030943258032,
+  "master_energy_above_9khz_fraction": 4.583344197135085e-09,
+  "consecutive_globe_frame_hashes_unique": 12
+}

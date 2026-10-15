@@ -1,0 +1,118 @@
+{
+  "duration": 32,
+  "tempo": 120,
+  "key": "F minor",
+  "composer": "Original procedural score for FENIX /13",
+  "source": "scripts/score.py",
+  "noise_sources": false,
+  "events": [
+    {
+      "time": 4.25,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 5.05,
+      "event": "globe to Myanmar"
+    },
+    {
+      "time": 7.6,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 8.15,
+      "event": "Shan highlands zoom"
+    },
+    {
+      "time": 8.8,
+      "event": "clean city-locator chime"
+    },
+    {
+      "time": 9.55,
+      "event": "clean city-locator chime"
+    },
+    {
+      "time": 10.5,
+      "event": "clean city-locator chime"
+    },
+    {
+      "time": 11.5,
+      "event": "falling tonal swish"
+    },
+    {
+      "time": 11.75,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 12,
+      "event": "brand typographic impact"
+    },
+    {
+      "time": 15.75,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 16,
+      "event": "brand typographic impact"
+    },
+    {
+      "time": 19.75,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 20,
+      "event": "brand typographic impact"
+    },
+    {
+      "time": 21.083333333333332,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 21.333333333333332,
+      "event": "brand typographic impact"
+    },
+    {
+      "time": 22.416666666666668,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 22.666666666666668,
+      "event": "brand typographic impact"
+    },
+    {
+      "time": 24,
+      "event": "phoenix reveal begins"
+    },
+    {
+      "time": 24.12,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 24.67,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 25.22,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 25.77,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 26.32,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 26.92,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 27.3,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 28,
+      "event": "FENIX /13 CHILL & GRILL logo resolve"
+    }
+  ]
+}
