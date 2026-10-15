@@ -1,0 +1,33 @@
+{
+  "name": "fenix13-night-engine",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --port=3003",
+    "check": "tsc --noEmit",
+    "render": "node scripts/render.mjs",
+    "stills": "node scripts/render.mjs --stills",
+    "score": "python3 scripts/score.py",
+    "verify": "python3 scripts/verify.py"
+  },
+  "dependencies": {
+    "@fontsource/syne": "5.2.7",
+    "@fontsource/manrope": "5.2.8",
+    "@react-three/fiber": "9.5.0",
+    "@remotion/cli": "4.0.535",
+    "@remotion/bundler": "4.0.535",
+    "@remotion/renderer": "4.0.535",
+    "@remotion/three": "4.0.535",
+    "remotion": "4.0.535",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "three": "0.183.2"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.183.1",
+    "typescript": "5.9.3"
+  }
+}

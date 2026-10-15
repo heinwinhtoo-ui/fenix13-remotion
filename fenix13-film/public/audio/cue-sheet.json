@@ -1,0 +1,122 @@
+{
+  "duration": 30,
+  "tempo": 120,
+  "key": "F minor",
+  "composer": "Original procedural score for FENIX /13",
+  "source": "scripts/score.py",
+  "noise_sources": false,
+  "events": [
+    {
+      "time": 3.4,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 4,
+      "event": "tunnel arrival"
+    },
+    {
+      "time": 7.76,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 8,
+      "event": "typographic scene impact"
+    },
+    {
+      "time": 9.76,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 10,
+      "event": "typographic scene impact"
+    },
+    {
+      "time": 11.76,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 12,
+      "event": "typographic scene impact"
+    },
+    {
+      "time": 15.76,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 16,
+      "event": "typographic scene impact"
+    },
+    {
+      "time": 17.01,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 17.25,
+      "event": "typographic scene impact"
+    },
+    {
+      "time": 18.26,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 18.5,
+      "event": "typographic scene impact"
+    },
+    {
+      "time": 13.07,
+      "event": "falling tonal swish"
+    },
+    {
+      "time": 13.25,
+      "event": "3D word hit"
+    },
+    {
+      "time": 14.32,
+      "event": "falling tonal swish"
+    },
+    {
+      "time": 14.5,
+      "event": "3D word hit"
+    },
+    {
+      "time": 19.45,
+      "event": "falling tonal swish"
+    },
+    {
+      "time": 20,
+      "event": "ident threshold"
+    },
+    {
+      "time": 20.62,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 21.17,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 21.72,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 22.27,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 22.77,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 23.22,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 23.65,
+      "event": "rising tonal swish"
+    },
+    {
+      "time": 24.45,
+      "event": "final FENIX logo resolve"
+    }
+  ]
+}
