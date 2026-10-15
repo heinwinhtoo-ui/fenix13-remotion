@@ -1,0 +1,29 @@
+<!doctype html><html><body><template>
+<style>
+#v2-attitude{position:absolute;inset:0;width:100%;height:100%}
+#attitude-bold{position:absolute;left:118px;top:570px;width:844px}
+#attitude-bold .bold-word{font-size:330px}#attitude-bold .flavour-word{font-size:255px;color:var(--orange);margin-top:5px;white-space:nowrap}
+#attitude-dark{position:absolute;left:118px;top:535px;width:844px}
+#attitude-dark .after-word{font-size:290px;letter-spacing:.02em;color:var(--cream)}
+#attitude-dark .dark-word{font-size:360px;color:var(--orange)}
+#attitude-late{font-size:32px;letter-spacing:.2em;margin-top:65px;color:var(--muted)}
+#attitude-bar{position:absolute;left:118px;top:1455px;width:844px;height:5px;background:var(--orange);transform-origin:left}
+</style>
+<div data-hf-id="hf-3xgm" id="v2-attitude" data-composition-id="v2-attitude" data-width="1080" data-height="1920" data-duration="3">
+<div data-hf-id="hf-upnh" id="attitude-label" class="small-label mono">TURN UP THE NIGHT</div>
+<div data-hf-id="hf-i6wt" id="attitude-bold"><div data-hf-id="hf-dolc" class="mask"><div data-hf-id="hf-vn4h" class="bold-word type">BOLD</div></div><div data-hf-id="hf-i5rs" class="mask"><div data-hf-id="hf-ooy1" class="flavour-word type">FLAVOUR.</div></div></div>
+<div data-hf-id="hf-9qw0" id="attitude-dark"><div data-hf-id="hf-gyup" class="mask"><div data-hf-id="hf-f009" class="after-word type">AFTER</div></div><div data-hf-id="hf-hd5q" class="mask"><div data-hf-id="hf-lfp7" class="dark-word type">DARK.</div></div><div data-hf-id="hf-tlvr" id="attitude-late" class="mono">THE NIGHT COMES ALIVE.</div></div>
+<div data-hf-id="hf-8q97" id="attitude-bar"></div>
+</div>
+<script>(()=>{const tl=gsap.timeline({paused:true});
+tl.fromTo('#attitude-bold .bold-word',{y:420},{y:0,duration:.52,ease:'expo.out'},.09);
+tl.fromTo('#attitude-bold .flavour-word',{y:330},{y:0,duration:.54,ease:'power4.out'},.27);
+tl.fromTo('#attitude-label',{opacity:0},{opacity:1,duration:.4,ease:'power2.out'},.52);
+tl.fromTo('#attitude-bar',{scaleX:0},{scaleX:1,duration:.55,ease:'power4.out'},.52);
+tl.set('#attitude-bold',{opacity:0},1.49);
+tl.fromTo('#attitude-dark',{opacity:0},{opacity:1,duration:.01,ease:'none'},1.5);
+tl.fromTo('#attitude-dark .after-word',{y:360},{y:0,duration:.42,ease:'expo.out'},1.5);
+tl.fromTo('#attitude-dark .dark-word',{y:460},{y:0,duration:.48,ease:'power4.out'},1.64);
+tl.fromTo('#attitude-late',{opacity:0,y:20},{opacity:1,y:0,duration:.35,ease:'power2.out'},2.18);
+window.__timelines['v2-attitude']=tl;})();</script>
+</template></body></html>

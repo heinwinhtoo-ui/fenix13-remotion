@@ -1,0 +1,25 @@
+@font-face{font-family:"Anton";font-style:normal;font-weight:400;src:url("fonts/anton-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:900;src:url("fonts/montserrat-latin-900-normal.woff2") format("woff2")}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:700;src:url("fonts/montserrat-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Space Mono";font-style:normal;font-weight:400;src:url("fonts/space-mono-latin-400-normal.woff2") format("woff2")}
+:root{--ink:#070708;--cream:#fff2dd;--orange:#ff6b20;--copper:#a84320;--gold:#ffd396;--violet:#8054e8;--muted:#b6a99c}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--ink);color:var(--cream)}
+#root{width:100%;height:100%;position:relative;overflow:hidden}
+.clip{position:absolute;inset:0;width:100%;height:100%;overflow:hidden}
+.host{position:absolute;inset:0;width:100%;height:100%}
+.type{font-family:"Anton",sans-serif;font-weight:400;text-transform:uppercase;line-height:1.02;letter-spacing:-.028em}
+.sans{font-family:"Montserrat",sans-serif;font-weight:700;line-height:1.2;text-transform:uppercase}
+.mono{font-family:"Space Mono",monospace;font-weight:400;text-transform:uppercase;line-height:1.45;letter-spacing:.13em}
+.char{display:inline-block;position:relative;will-change:transform,opacity}
+.mask{overflow:hidden;position:relative;padding-bottom:12px}
+.orange{color:var(--orange)}
+.small-label{position:absolute;left:118px;top:245px;font-size:28px;letter-spacing:.2em;color:var(--muted);display:flex;align-items:center;gap:24px}
+.small-label:before{content:"";height:3px;width:65px;background:var(--orange)}
+.rule{height:3px;background:var(--orange);transform-origin:left center}
+.scene-footer{position:absolute;left:118px;bottom:235px;font-size:27px;color:var(--muted);letter-spacing:.09em}
+.outline-decor{color:var(--copper);-webkit-text-stroke:2px var(--orange);opacity:.12;pointer-events:none}
+.metal{background-image:linear-gradient(112deg,var(--copper) 0%,var(--orange) 21%,var(--gold) 40%,var(--cream) 45%,var(--orange) 57%,var(--copper) 77%,var(--gold) 94%);-webkit-background-clip:text;background-clip:text;color:transparent;background-size:240% 100%;background-position:100% 50%}
+.perspective{perspective:1500px;transform-style:preserve-3d}
+.slab{position:absolute;inset:0;transform-style:preserve-3d;pointer-events:none}
+.slab svg{width:100%;height:100%;display:block}

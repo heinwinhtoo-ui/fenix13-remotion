@@ -1,0 +1,32 @@
+<!doctype html><html><body><template>
+<style>
+#v2-hook{position:absolute;inset:0;width:100%;height:100%}
+#hook-place{position:absolute;left:110px;top:660px;width:860px;font-size:205px;text-align:center;letter-spacing:.005em;white-space:nowrap}
+#hook-place .char{display:inline-block}
+#hook-copy{position:absolute;left:118px;top:915px;width:844px}
+#hook-pre{font-size:41px;letter-spacing:.12em;color:var(--muted)}
+#hook-heat{font-size:185px;margin-top:7px;white-space:nowrap}
+#hook-rule{position:absolute;left:118px;top:1205px;width:844px;height:6px;background:var(--orange);transform-origin:left}
+#hook-overline{position:absolute;left:118px;top:610px;font-size:28px;color:var(--orange)}
+#hook-pin{position:absolute;left:512px;top:390px;width:56px;height:56px;border:1px solid var(--orange);border-radius:50%;display:grid;place-items:center}
+#hook-pin:after{content:"";width:10px;height:10px;background:var(--gold);border-radius:50%;box-shadow:0 0 26px 9px rgba(255,107,32,.6)}
+</style>
+<div data-hf-id="hf-fxji" id="v2-hook" data-composition-id="v2-hook" data-width="1080" data-height="1920" data-duration="3">
+<div data-hf-id="hf-u1h5" id="hook-pin" aria-hidden="true"></div><div data-hf-id="hf-vnv9" id="hook-overline" class="mono">A NEW NIGHT IS COMING</div>
+<div data-hf-id="hf-w9fl" id="hook-place" class="type">TAUNGGYI</div>
+<div data-hf-id="hf-8b76" id="hook-copy"><div data-hf-id="hf-xo9i" id="hook-pre" class="sans">SOMETHING IS</div><div data-hf-id="hf-dolc" class="mask"><div data-hf-id="hf-psuf" id="hook-heat" class="type orange">HEATING UP.</div></div></div>
+<div data-hf-id="hf-pe77" id="hook-rule"></div><div data-hf-id="hf-o3ml" id="hook-footer" class="scene-footer mono">SHAN STATE · MYANMAR</div>
+</div>
+<script>
+(()=>{const tl=gsap.timeline({paused:true});
+const place=document.getElementById('hook-place');place.innerHTML=[...place.textContent].map(c=>`<span class="char">${c}</span>`).join('');
+tl.fromTo('#hook-pin',{opacity:0,scale:.15},{opacity:1,scale:1,duration:.46,ease:'expo.out'},.18);
+tl.to('#hook-pin',{opacity:0,scale:3.5,duration:.55,ease:'power2.out'},.70);
+tl.fromTo('#hook-place .char',{y:190,opacity:0,rotationX:-65},{y:0,opacity:1,rotationX:0,duration:.65,stagger:.045,ease:'expo.out'},.58);
+tl.fromTo('#hook-overline',{opacity:0,x:-36},{opacity:1,x:0,duration:.45,ease:'power3.out'},1.05);
+tl.fromTo('#hook-pre',{opacity:0,y:24},{opacity:1,y:0,duration:.4,ease:'power2.out'},1.3);
+tl.fromTo('#hook-heat',{y:260},{y:0,duration:.6,ease:'expo.out'},1.48);
+tl.fromTo('#hook-rule',{scaleX:0},{scaleX:1,duration:.68,ease:'power4.out'},1.63);
+tl.fromTo('#hook-footer',{opacity:0},{opacity:1,duration:.4,ease:'power2.out'},2.04);
+window.__timelines['v2-hook']=tl;})();
+</script></template></body></html>

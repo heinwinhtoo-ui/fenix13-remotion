@@ -1,0 +1,19 @@
+@font-face{font-family:"Anton";font-style:normal;font-weight:400;src:url("fonts/anton-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:900;src:url("fonts/montserrat-latin-900-normal.woff2") format("woff2")}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:700;src:url("fonts/montserrat-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Space Mono";font-style:normal;font-weight:400;src:url("fonts/space-mono-latin-400-normal.woff2") format("woff2")}
+:root{--ink:#070708;--cream:#fff2dd;--orange:#ff6b20;--copper:#a84320;--gold:#ffd396;--violet:#8054e8;--muted:#b6a99c}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;background:var(--ink);color:var(--cream);overflow:hidden}
+#root{position:relative;width:100%;height:100%;overflow:hidden}
+.clip{position:absolute;inset:0;width:100%;height:100%;overflow:hidden}
+.scene-content{width:100%;height:100%;padding:230px 118px;display:flex;flex-direction:column;justify-content:center;gap:28px;position:relative}
+.type{font-family:"Anton",sans-serif;font-weight:400;line-height:1.04;letter-spacing:-.025em;text-transform:uppercase}
+.sans{font-family:"Montserrat",sans-serif;font-weight:700;text-transform:uppercase;line-height:1.3}
+.mono{font-family:"Space Mono",monospace;font-weight:400;text-transform:uppercase;line-height:1.4;letter-spacing:.12em}
+.orange{color:var(--orange)}.muted{color:var(--muted)}
+.mask{overflow:hidden;position:relative;padding-bottom:12px}
+.glyph{display:inline-block;will-change:transform,opacity}
+.stage-label{font-size:28px;letter-spacing:.18em;color:var(--muted)}
+.scene-content .reading{position:relative;z-index:2}
+.glass-plane{transform-style:preserve-3d;backface-visibility:hidden}

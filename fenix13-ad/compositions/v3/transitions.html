@@ -1,0 +1,20 @@
+<!doctype html><html><body><template>
+<style>
+#v3-transitions{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.v3-shutter{position:absolute;inset:0;overflow:visible;width:100%;height:100%}
+.v3-shutter svg{width:100%;height:100%;overflow:visible;display:block}
+.v3-shutter-half{position:absolute;inset:0}
+</style>
+<div id="v3-transitions" data-composition-id="v3-transitions" data-width="1080" data-height="1920" data-duration="20" aria-hidden="true"></div>
+<script>(()=>{const root=document.getElementById('v3-transitions');const tl=gsap.timeline({paused:true});
+[3,6,9,12,15].forEach((at,i)=>{
+const panel=document.createElement('div');panel.className='v3-shutter';panel.id='v3-shutter-'+i;panel.setAttribute('data-layout-allow-overflow','');
+panel.innerHTML='<div class="v3-shutter-half v3-left"><svg viewBox="0 0 1080 1920"><path d="M-1600 -100H900L200 2020H-2300Z" fill="#070708"/><path d="M900 -100L200 2020" stroke="#ffd396" stroke-width="3"/></svg></div><div class="v3-shutter-half v3-right"><svg viewBox="0 0 1080 1920"><path d="M900 -100H2500L1800 2020H200Z" fill="#070708"/><path d="M900 -100L200 2020" stroke="#ff6b20" stroke-width="11"/></svg></div>';
+root.appendChild(panel);const l=panel.querySelector('.v3-left'),r=panel.querySelector('.v3-right');
+tl.fromTo(l,{x:-2000},{x:0,duration:.25,ease:'power3.in'},at-.25);
+tl.fromTo(r,{x:2000},{x:0,duration:.25,ease:'power3.in'},at-.25);
+tl.to(l,{x:-2000,duration:.42,ease:'power4.out'},at+.015);
+tl.to(r,{x:2000,duration:.42,ease:'power4.out'},at+.015);
+});
+window.__timelines['v3-transitions']=tl;})();</script>
+</template></body></html>

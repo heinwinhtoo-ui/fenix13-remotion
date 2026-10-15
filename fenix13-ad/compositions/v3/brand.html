@@ -1,0 +1,24 @@
+<!doctype html><html><body><template>
+<style>
+#v3-brand{position:absolute;inset:0;width:100%;height:100%}
+#v3-brand .scene-content{justify-content:flex-end;padding:1050px 118px 260px;gap:0;text-align:center}
+#v3-brand-category{font-size:30px;letter-spacing:.105em}
+#v3-brand-rule{height:2px;background:var(--copper);width:100%;margin-top:48px;transform-origin:center}
+#v3-brand-coming{font-size:132px;letter-spacing:.015em;color:var(--orange);white-space:nowrap}
+#v3-brand-coming-mask{margin-top:45px;padding-bottom:12px}
+#v3-brand-location{font-size:28px;letter-spacing:.07em;margin-top:20px}
+#v3-brand-tagline{font-size:29px;letter-spacing:.09em;color:var(--muted);margin-top:66px}
+</style>
+<div id="v3-brand" data-composition-id="v3-brand" data-width="1080" data-height="1920" data-duration="5">
+<div class="scene-content"><div id="v3-brand-category" class="sans">BBQ • BAR • RESTAURANT</div><div id="v3-brand-rule"></div>
+<div id="v3-brand-coming-mask" class="mask"><div id="v3-brand-coming" class="type">COMING SOON</div></div>
+<div id="v3-brand-location" class="mono">TAUNGGYI, SHAN STATE</div><div id="v3-brand-tagline" class="sans">THE NIGHT COMES ALIVE.</div></div>
+</div>
+<script>(()=>{const tl=gsap.timeline({paused:true});
+tl.fromTo('#v3-brand-category',{opacity:0,y:20},{opacity:1,y:0,duration:.6,ease:'power3.out'},1.75);
+tl.fromTo('#v3-brand-rule',{scaleX:0},{scaleX:1,duration:.65,ease:'power2.out'},1.88);
+tl.fromTo('#v3-brand-coming',{y:180},{y:0,duration:.68,ease:'expo.out'},2.03);
+tl.fromTo('#v3-brand-location',{opacity:0,y:16},{opacity:1,y:0,duration:.55,ease:'circ.out'},2.46);
+tl.fromTo('#v3-brand-tagline',{opacity:0},{opacity:1,duration:.7,ease:'power2.out'},2.85);
+window.__timelines['v3-brand']=tl;})();</script>
+</template></body></html>

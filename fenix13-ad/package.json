@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx --yes hyperframes@0.8.157 preview",
+    "build:3d": "esbuild assets/v3/studio-stage.js --bundle --minify --format=iife --outfile=assets/v3/studio-stage.bundle.js",
     "check": "npx --yes hyperframes@0.8.157 check",
     "render": "npx --yes hyperframes@0.8.157 render",
     "publish": "npx --yes hyperframes@0.8.157 publish"
@@ -12,6 +13,10 @@
     "@fontsource/anton": "5.3.0",
     "@fontsource/montserrat": "5.3.0",
     "@fontsource/space-mono": "5.3.0",
-    "gsap": "3.14.2"
+    "gsap": "3.14.2",
+    "three": "0.160.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
   }
 }

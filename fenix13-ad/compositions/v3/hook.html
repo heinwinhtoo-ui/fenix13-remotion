@@ -1,0 +1,27 @@
+<!doctype html><html><body><template>
+<style>
+#v3-hook{position:absolute;inset:0;width:100%;height:100%;perspective:1400px}
+#v3-hook .scene-content{gap:38px}
+#v3-hook-title{font-size:202px;white-space:nowrap;letter-spacing:-.005em;text-align:center;transform-style:preserve-3d}
+#v3-hook-loc{font-size:29px;letter-spacing:.14em;color:var(--muted);text-align:center}
+#v3-hook-copy{margin-top:34px}
+#v3-hook-copy .sans{font-size:39px;letter-spacing:.11em}
+#v3-hook-heat{font-size:184px;white-space:nowrap;color:var(--orange)}
+#v3-hook-optic{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+#v3-hook-optic i{position:absolute;width:760px;height:760px;border:1px solid rgba(255,211,150,.25);border-radius:50%;transform-origin:center}
+#v3-hook-optic i:nth-child(2){width:940px;height:940px;border-color:rgba(255,107,32,.15)}
+</style>
+<div id="v3-hook" data-composition-id="v3-hook" data-width="1080" data-height="1920" data-duration="3">
+<div id="v3-hook-optic" aria-hidden="true" data-layout-allow-overflow><i></i><i></i></div>
+<div class="scene-content"><div id="v3-hook-loc" class="mono">SHAN STATE, MYANMAR</div><h1 id="v3-hook-title" class="type">TAUNGGYI</h1>
+<div id="v3-hook-copy"><div id="v3-hook-something" class="sans">SOMETHING IS</div><div class="mask"><div id="v3-hook-heat" class="type">HEATING UP.</div></div></div></div>
+</div>
+<script>(()=>{const title=document.getElementById('v3-hook-title');title.innerHTML=[...title.textContent].map(c=>'<span class="glyph">'+c+'</span>').join('');
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#v3-hook-optic i',{scale:.02,rotationX:72,opacity:0},{scale:1.32,rotationX:0,opacity:.4,duration:1.6,stagger:.12,ease:'expo.out'},.2);
+tl.fromTo('#v3-hook-title .glyph',{y:100,z:430,rotationY:80,rotationX:-35,opacity:0},{y:0,z:0,rotationY:0,rotationX:0,opacity:1,duration:.88,stagger:{each:.045,from:'center'},ease:'power4.out'},.58);
+tl.fromTo('#v3-hook-loc',{opacity:0,x:-24},{opacity:1,x:0,duration:.7,ease:'power2.out'},.94);
+tl.fromTo('#v3-hook-something',{opacity:0,x:-40},{opacity:1,x:0,duration:.5,ease:'circ.out'},1.3);
+tl.fromTo('#v3-hook-heat',{clipPath:'inset(0% 100% 0% 0%)'},{clipPath:'inset(0% 0% 0% 0%)',duration:.85,ease:'power3.inOut'},1.5);
+window.__timelines['v3-hook']=tl;})();</script>
+</template></body></html>

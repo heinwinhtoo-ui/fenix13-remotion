@@ -39,3 +39,21 @@ and six separately editable scenes. The original six story beats and exact
 in F minor from mathematical oscillators and seeded noise, with no external samples.
 Version 1 source is preserved at versions/v1.html; its original MP4 remains at the
 repository root. Fonts and GSAP are bundled locally for offline browser rendering.
+
+## Version 3 — The Arrival / user revision
+
+User rejected the hiss-like/noisy score, asked for clean sound, more sophisticated
+motion, and a name reveal with the cinematic build of major animation-studio idents.
+
+The active composition now uses a new clean tonal score: mellow plucks, warm pads,
+sine bass, and an original logo chime. It contains no noise sources, crackling,
+noise sweeps, or noisy percussion. Previous audio remains archived only and is not
+present on the active timeline.
+
+The FENIX /13 name is now actual beveled Three.js geometry from the bundled
+Montserrat outlines. The glyphs assemble from depth, the camera pulls back, a
+travelling copper light arches into the slash, and the complete brand holds.
+Earlier typography uses optical character reveals, hinged construction, perspective
+substitution, a 3D drum, and folding word groups. Optical shutters connect scenes.
+The ident is original: no borrowed studio logo, character, icon, or theme melody.
+The initial no-photography/no-mascot constraint and 20-second format are preserved.

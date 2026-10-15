@@ -1,0 +1,32 @@
+<!doctype html><html><body><template>
+<style>
+#v3-attitude{position:absolute;inset:0;width:100%;height:100%;perspective:1800px}
+#v3-attitude .scene-content{gap:0}
+#v3-bold-stage{transform-style:preserve-3d;position:relative}
+#v3-bold{font-size:330px;transform-origin:left center;line-height:1.1}
+#v3-flavour{font-size:253px;color:var(--orange);white-space:nowrap;transform-style:preserve-3d}
+#v3-dark-stage{position:absolute;inset:0;perspective:1800px}
+#v3-dark-stage .scene-content{gap:0}
+#v3-after{font-size:286px;line-height:1.12;letter-spacing:.015em}
+#v3-dark{font-size:356px;color:var(--orange);line-height:1.1}
+#v3-attitude-sub{font-size:30px;letter-spacing:.1em;color:var(--muted);margin-top:64px}
+#v3-attitude-divider{position:absolute;left:50%;top:390px;width:3px;height:1130px;background:var(--orange);transform-origin:center;opacity:0}
+</style>
+<div id="v3-attitude" data-composition-id="v3-attitude" data-width="1080" data-height="1920" data-duration="3">
+<div id="v3-attitude-divider" aria-hidden="true"></div>
+<div class="scene-content"><div id="v3-bold-stage"><div id="v3-bold" class="type">BOLD</div><div id="v3-flavour" class="type">FLAVOUR.</div></div></div>
+<div id="v3-dark-stage"><div class="scene-content"><div id="v3-after" class="type">AFTER</div><div id="v3-dark" class="type">DARK.</div><div id="v3-attitude-sub" class="mono">THE NIGHT COMES ALIVE.</div></div></div>
+</div>
+<script>(()=>{const el=document.getElementById('v3-flavour');el.innerHTML=[...el.textContent].map(c=>'<span class="glyph">'+c+'</span>').join('');
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#v3-bold',{rotationY:-75,x:-130,opacity:0},{rotationY:0,x:0,opacity:1,duration:.7,ease:'expo.out'},.08);
+tl.fromTo('#v3-flavour .glyph',{rotationX:80,y:100,opacity:0},{rotationX:0,y:0,opacity:1,duration:.55,stagger:.035,ease:'power4.out'},.3);
+tl.fromTo('#v3-attitude-divider',{scaleY:0,opacity:0},{scaleY:1,opacity:.6,duration:.24,ease:'power2.in'},1.21);
+tl.set('#v3-bold-stage',{opacity:0},1.5);
+tl.fromTo('#v3-dark-stage',{opacity:0},{opacity:1,duration:.01,ease:'none'},1.5);
+tl.fromTo('#v3-after',{x:380,rotationY:85,opacity:0},{x:0,rotationY:0,opacity:1,duration:.65,ease:'expo.out'},1.5);
+tl.fromTo('#v3-dark',{x:-350,rotationY:-85,opacity:0},{x:0,rotationY:0,opacity:1,duration:.65,ease:'circ.out'},1.64);
+tl.to('#v3-attitude-divider',{rotation:90,scaleY:.62,opacity:.25,duration:.65,ease:'power3.out'},1.5);
+tl.fromTo('#v3-attitude-sub',{opacity:0},{opacity:1,duration:.4,ease:'power2.out'},2.25);
+window.__timelines['v3-attitude']=tl;})();</script>
+</template></body></html>

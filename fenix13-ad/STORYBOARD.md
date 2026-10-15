@@ -98,3 +98,52 @@ GOOD FOOD, GOOD VIBES, GREAT NIGHTS build at 12, 12.75, 13.5 seconds.
 - motion: logo-assemble-lockup, svg-path-draw.
 A copper slash rotates into view, then the FENIX /13 lockup and COMING SOON
 resolve. Location and tagline complete by 17.7 seconds and hold to the end.
+
+# Version 3 — The Arrival
+
+The earlier storyboard sections remain as version history. New shots use a clean
+tonal score and one procedural 3D copper-light world, without a hiss/noise bed.
+
+## Frame 1 — Optical ignition
+- status: animated
+- src: compositions/v3/hook.html
+- duration: 3s
+- motion: center-out glyph rotation, optical ring, clipped scanning reveal.
+TAUNGGYI / SOMETHING IS HEATING UP.
+
+## Frame 2 — Hinged fire
+- status: animated
+- src: compositions/v3/fire.html
+- duration: 3s
+- motion: hinged characters construct FIRE; GRILL letters arrive through depth.
+FIRE UP THE GRILL.
+
+## Frame 3 — Perspective handoff
+- status: animated
+- src: compositions/v3/attitude.html
+- duration: 3s
+- motion: opposing 3D rotations replace the phrase at an anchored divider.
+BOLD FLAVOUR. / AFTER DARK.
+
+## Frame 4 — Type drum
+- status: animated
+- src: compositions/v3/energy.html
+- duration: 3s
+- motion: a CSS 3D cylinder revolves through three one-second words.
+SMOKE. / SPARK. / ENERGY.
+
+## Frame 5 — Folding social typography
+- status: animated
+- src: compositions/v3/social.html
+- duration: 3s
+- motion: differently oriented word groups hinge and fold into one layout.
+GOOD FOOD. / GOOD VIBES. / GREAT NIGHTS.
+
+## Frame 6 — Cinematic studio ident
+- status: animated
+- src: compositions/v3/brand.html
+- duration: 5s
+- motion: 3D glyph assembly, camera pullback, travelling arch and slash ignition.
+The persistent world.html canvas draws the name from 15 seconds. Letters assemble
+by 16.75s; the light touches the slash at 16.68s. COMING SOON completes at 17.71s.
+Location and tagline complete by 18.55s, then hold until the exact 20-second end.
