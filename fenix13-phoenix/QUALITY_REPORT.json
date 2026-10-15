@@ -1,0 +1,22 @@
+{
+  "file": "FENIX13_PHOENIX_RETURN_V6_60S_60FPS.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 3600,
+  "duration": 60,
+  "video_codec": "H.264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "AAC",
+  "sample_rate": 48000,
+  "channels": 2,
+  "full_decode": "PASS",
+  "fast_start": true,
+  "bytes": 15598908,
+  "sha256": "1727799bced37ae96964f7b7c33c41d871f499470fa40f81a8d2f7c3740ea3ab",
+  "audio_master_correlation": 0.9999871462695975,
+  "decoded_audio_sample_peak_dbfs": -2.489943479358468,
+  "master_energy_above_9khz_fraction": 5.46393853334242e-09,
+  "consecutive_globe_frame_hashes_unique": 12,
+  "consecutive_phoenix_frame_hashes_unique": 12
+}

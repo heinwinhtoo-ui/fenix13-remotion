@@ -1,0 +1,173 @@
+{
+  "duration": 60,
+  "tempo": 120,
+  "feel": "half-time emphasis",
+  "key": "F minor",
+  "composer": "Original FENIX /13 score",
+  "source": "scripts/score60.py",
+  "noise_sources": false,
+  "letter_times": [
+    46.0,
+    46.65,
+    47.3,
+    47.95,
+    48.6,
+    49.25,
+    49.9,
+    50.55
+  ],
+  "events": [
+    {
+      "time": 1.9,
+      "event": "first phoenix hint"
+    },
+    {
+      "time": 3.5,
+      "event": "phoenix departs"
+    },
+    {
+      "time": 5.45,
+      "event": "globe to Myanmar"
+    },
+    {
+      "time": 6.15,
+      "event": "Myanmar arrival"
+    },
+    {
+      "time": 10.7,
+      "event": "Shan and Taunggyi zoom"
+    },
+    {
+      "time": 11.45,
+      "event": "Taunggyi locator"
+    },
+    {
+      "time": 17.55,
+      "event": "editorial scene sweep"
+    },
+    {
+      "time": 18,
+      "event": "scene beat impact"
+    },
+    {
+      "time": 25.55,
+      "event": "editorial scene sweep"
+    },
+    {
+      "time": 26,
+      "event": "scene beat impact"
+    },
+    {
+      "time": 33.55,
+      "event": "editorial scene sweep"
+    },
+    {
+      "time": 34,
+      "event": "scene beat impact"
+    },
+    {
+      "time": 36.21666666666666,
+      "event": "editorial scene sweep"
+    },
+    {
+      "time": 36.666666666666664,
+      "event": "scene beat impact"
+    },
+    {
+      "time": 38.88333333333333,
+      "event": "editorial scene sweep"
+    },
+    {
+      "time": 39.333333333333336,
+      "event": "scene beat impact"
+    },
+    {
+      "time": 41.55,
+      "event": "editorial scene sweep"
+    },
+    {
+      "time": 42,
+      "event": "scene beat impact"
+    },
+    {
+      "time": 42.3,
+      "event": "phoenix returns from left"
+    },
+    {
+      "time": 44.3,
+      "event": "phoenix banks through frame"
+    },
+    {
+      "time": 43.0,
+      "event": "soft wing stroke"
+    },
+    {
+      "time": 44.1764705882353,
+      "event": "soft wing stroke"
+    },
+    {
+      "time": 45.35294117647059,
+      "event": "soft wing stroke"
+    },
+    {
+      "time": 46.529411764705884,
+      "event": "soft wing stroke"
+    },
+    {
+      "time": 47.705882352941174,
+      "event": "soft wing stroke"
+    },
+    {
+      "time": 48.88235294117647,
+      "event": "soft wing stroke"
+    },
+    {
+      "time": 50.05882352941177,
+      "event": "soft wing stroke"
+    },
+    {
+      "time": 51.23529411764706,
+      "event": "soft wing stroke"
+    },
+    {
+      "time": 46.0,
+      "event": "logo glyph F"
+    },
+    {
+      "time": 46.65,
+      "event": "logo glyph E"
+    },
+    {
+      "time": 47.3,
+      "event": "logo glyph N"
+    },
+    {
+      "time": 47.95,
+      "event": "logo glyph I"
+    },
+    {
+      "time": 48.6,
+      "event": "logo glyph X"
+    },
+    {
+      "time": 49.25,
+      "event": "logo glyph /"
+    },
+    {
+      "time": 49.9,
+      "event": "logo glyph 1"
+    },
+    {
+      "time": 50.55,
+      "event": "logo glyph 3"
+    },
+    {
+      "time": 51.7,
+      "event": "phoenix merges with crest"
+    },
+    {
+      "time": 52.8,
+      "event": "phoenix and FENIX wordmark unite"
+    }
+  ]
+}
