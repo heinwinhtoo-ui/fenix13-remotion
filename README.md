@@ -1,28 +1,33 @@
-# FENIX /13 — CINEMATIC 3D EDITION
+# FENIX /13 — EMBER
 
-**Version 7: 60 seconds at native 60 fps.** Globe → Myanmar → Taunggyi leads to
-studio-lit 3D lounge and grill objects. A copper/ivory phoenix with layered feather
-meshes, engraved surfaces and articulated wings banks into view, accompanies the
-individual FENIX /13 characters, and folds into the final brand crest. An original
-electric-piano, bass and beat arrangement includes synchronized tonal effects.
+**Version 8: 60 seconds at native 60 fps.** New cinematic CGI imagery replaces
+the rejected ornamental bird and simple product models. An ivory/fire phoenix
+with detailed feathers is animated on a continuous depth mesh, then resolves into
+the brand crest. Macro charcoal imagery, amber glassware and diffuse social
+silhouettes accompany the typography. The globe → Myanmar → Taunggyi opening
+and original clean electric-piano, bass and beat soundtrack are preserved.
 
 1080 × 1920 • 9:16 • 60 fps • 3600 frames • H.264 • AAC 48 kHz stereo.
 
-- [Watch / download the 60-second phone preview](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V7_PREVIEW_60S_60FPS.mp4)
-- [Download the Full HD 60-second film](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_CINEMATIC_V7_60S_60FPS.mp4)
-- [Download the editable Remotion project and assets](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_REMOTION_V7_SOURCE.zip)
-- [Revised 60-second campaign script](fenix13-cinematic/SCRIPT.md)
-- [Open the source and editing instructions](fenix13-cinematic/README.md)
-- [Geographic, 3D and logo asset provenance](fenix13-cinematic/ASSETS.md)
-- [Export verification](fenix13-cinematic/QUALITY_REPORT.json)
+- [Watch / download the 60-second phone preview](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V8_PREVIEW_60S_60FPS.mp4)
+- [Download the Full HD 60-second film](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_EMBER_V8_60S_60FPS.mp4)
+- [Download the editable Remotion project and assets](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_REMOTION_V8_SOURCE.zip)
+- [Revised 60-second campaign script](fenix13-ember/SCRIPT.md)
+- [Open the source and editing instructions](fenix13-ember/README.md)
+- [Geographic, CGI and logo asset provenance](fenix13-ember/ASSETS.md)
+- [Export verification](fenix13-ember/QUALITY_REPORT.json)
 
-The latest project is `fenix13-cinematic/`. The city pin identifies Taunggyi, not a
+The latest project is `fenix13-ember/`. The bird is animated 2.5D CGI artwork,
+not a fully modelled volumetric creature. The city pin identifies Taunggyi, not a
 restaurant address. The prepared logo asset is documented in `ASSETS.md` and can
 be replaced with the original brand file without changing the film's timing.
 Earlier Remotion and HyperFrames projects and exports are retained.
 
 Earlier exports:
 
+- [V7 preview](FENIX13_V7_PREVIEW_60S_60FPS.mp4)
+- [V7 Full HD](FENIX13_CINEMATIC_V7_60S_60FPS.mp4)
+- [V7 Remotion source](FENIX13_REMOTION_V7_SOURCE.zip)
 - [V6 preview](FENIX13_V6_PREVIEW_60S_60FPS.mp4)
 - [V6 Full HD](FENIX13_PHOENIX_RETURN_V6_60S_60FPS.mp4)
 - [V6 Remotion source](FENIX13_REMOTION_V6_SOURCE.zip)

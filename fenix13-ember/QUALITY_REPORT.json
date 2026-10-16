@@ -1,0 +1,22 @@
+{
+  "file": "FENIX13_EMBER_V8_60S_60FPS.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 3600,
+  "duration": 60,
+  "video_codec": "H.264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "AAC",
+  "sample_rate": 48000,
+  "channels": 2,
+  "full_decode": "PASS",
+  "fast_start": true,
+  "bytes": 37357357,
+  "sha256": "6b3f826a4cb441f0a6156db0835827408b0a10806987689c27fab45e337fca21",
+  "audio_master_correlation": 0.999987708782132,
+  "decoded_audio_sample_peak_dbfs": -2.6204966281217206,
+  "master_energy_above_9khz_fraction": 5.731483879584784e-08,
+  "consecutive_globe_frame_hashes_unique": 12,
+  "consecutive_phoenix_frame_hashes_unique": 12
+}
