@@ -1,0 +1,22 @@
+{
+  "file": "FENIX13_CINEMATIC_V7_60S_60FPS.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 3600,
+  "duration": 60,
+  "video_codec": "H.264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "AAC",
+  "sample_rate": 48000,
+  "channels": 2,
+  "full_decode": "PASS",
+  "fast_start": true,
+  "bytes": 19512719,
+  "sha256": "aee4c067086c04569863cbe9626e0df471b47be64ece07529b9033562aececf7",
+  "audio_master_correlation": 0.999987708782132,
+  "decoded_audio_sample_peak_dbfs": -2.6204966281217206,
+  "master_energy_above_9khz_fraction": 5.731483879584784e-08,
+  "consecutive_globe_frame_hashes_unique": 12,
+  "consecutive_phoenix_frame_hashes_unique": 12
+}
