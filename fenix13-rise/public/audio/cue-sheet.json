@@ -1,0 +1,144 @@
+{
+  "duration": 40,
+  "tempo": 120,
+  "key": "F minor",
+  "composer": "Original FENIX /13 score",
+  "source": "scripts/score40.py",
+  "noise_sources": false,
+  "letter_times": [
+    30.1,
+    30.32,
+    30.540000000000003,
+    30.76,
+    30.98,
+    31.200000000000003,
+    31.42,
+    31.64
+  ],
+  "events": [
+    {
+      "time": 3.6,
+      "event": "Myanmar approach"
+    },
+    {
+      "time": 4.1,
+      "event": "Myanmar locator"
+    },
+    {
+      "time": 6.6,
+      "event": "Taunggyi approach"
+    },
+    {
+      "time": 7.1,
+      "event": "Taunggyi locator"
+    },
+    {
+      "time": 9.75,
+      "event": "scene sweep"
+    },
+    {
+      "time": 10,
+      "event": "scene beat"
+    },
+    {
+      "time": 13.75,
+      "event": "scene sweep"
+    },
+    {
+      "time": 14,
+      "event": "scene beat"
+    },
+    {
+      "time": 17.75,
+      "event": "scene sweep"
+    },
+    {
+      "time": 18,
+      "event": "scene beat"
+    },
+    {
+      "time": 20.75,
+      "event": "scene sweep"
+    },
+    {
+      "time": 21,
+      "event": "scene beat"
+    },
+    {
+      "time": 23.75,
+      "event": "scene sweep"
+    },
+    {
+      "time": 24,
+      "event": "scene beat"
+    },
+    {
+      "time": 27,
+      "event": "phoenix return"
+    },
+    {
+      "time": 27.2,
+      "event": "banking flight"
+    },
+    {
+      "time": 27.3,
+      "event": "wing stroke"
+    },
+    {
+      "time": 29.38,
+      "event": "wing stroke"
+    },
+    {
+      "time": 31.46,
+      "event": "wing stroke"
+    },
+    {
+      "time": 30.1,
+      "event": "3D logo glyph F"
+    },
+    {
+      "time": 30.32,
+      "event": "3D logo glyph E"
+    },
+    {
+      "time": 30.540000000000003,
+      "event": "3D logo glyph N"
+    },
+    {
+      "time": 30.76,
+      "event": "3D logo glyph I"
+    },
+    {
+      "time": 30.98,
+      "event": "3D logo glyph X"
+    },
+    {
+      "time": 31.200000000000003,
+      "event": "3D logo glyph /"
+    },
+    {
+      "time": 31.42,
+      "event": "3D logo glyph 1"
+    },
+    {
+      "time": 31.64,
+      "event": "3D logo glyph 3"
+    },
+    {
+      "time": 31.9,
+      "event": "phoenix absorption"
+    },
+    {
+      "time": 32.8,
+      "event": "phoenix crest joins"
+    },
+    {
+      "time": 33.1,
+      "event": "logo light orbit"
+    },
+    {
+      "time": 34.65,
+      "event": "full brand resolves"
+    }
+  ]
+}

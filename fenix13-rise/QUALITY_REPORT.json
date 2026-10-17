@@ -1,0 +1,23 @@
+{
+  "file": "FENIX13_RISE_V9_40S_60FPS.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 2400,
+  "duration": 40,
+  "video_codec": "H.264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "AAC",
+  "sample_rate": 48000,
+  "channels": 2,
+  "full_decode": "PASS",
+  "fast_start": true,
+  "bytes": 23245833,
+  "sha256": "a7b9dee5282f56d39959d81376b899a3bc8bca593deac307d0f928e32c1000b6",
+  "audio_master_correlation": 0.9999853806562796,
+  "decoded_audio_sample_peak_dbfs": -2.5775926651757777,
+  "master_energy_above_9khz_fraction": 2.7708306283351017e-08,
+  "consecutive_globe_frame_hashes_unique": 12,
+  "consecutive_phoenix_frame_hashes_unique": 12,
+  "consecutive_logo_frame_hashes_unique": 12
+}

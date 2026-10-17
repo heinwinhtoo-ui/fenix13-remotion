@@ -1,0 +1,12 @@
+{
+  "file": "FENIX13_V9_PREVIEW_40S_60FPS.mp4",
+  "width": 540,
+  "height": 960,
+  "fps": 60,
+  "frames": 2400,
+  "duration": 40,
+  "full_decode": "PASS",
+  "fast_start": true,
+  "bytes": 5693407,
+  "sha256": "3d4f8f491a042cf0fb34faeeb857c102d50c738be7ed0656100d46a1d71c27fc"
+}
