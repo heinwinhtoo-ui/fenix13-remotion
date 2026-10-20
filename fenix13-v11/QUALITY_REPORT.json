@@ -1,0 +1,21 @@
+{
+  "file": "FENIX13_V11_FINAL_32S.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 960,
+  "duration": 32,
+  "codec": "H.264 yuv420p",
+  "audio": "AAC stereo 48 kHz",
+  "full_decode": "PASS",
+  "fast_start": true,
+  "bytes": 21391507,
+  "sha256": "751f98199847da5216b5fd071eda948bb184110bbf96af1da828622e1f1ace13",
+  "logo_sha256": "f5eb2170e5bc5d191d3c3d86b0ed5cb82a8314d42e77e33faffa9d5b51a1de14",
+  "supplied_logo_byte_identical": true,
+  "animated_creature_removed": true,
+  "wing_sound_effects_removed": true,
+  "integrated_loudness_lufs": -15.46,
+  "true_peak_dbtp": -2.54,
+  "headphone_audition": "Not available"
+}

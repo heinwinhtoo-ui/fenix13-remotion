@@ -1,0 +1,7 @@
+node_modules
+out/
+.remotion/
+*.log
+public/audio/premaster.wav
+__pycache__/
+*.blend1

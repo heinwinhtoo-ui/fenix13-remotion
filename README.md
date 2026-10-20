@@ -1,4 +1,21 @@
-# FENIX /13 — V10
+# FENIX /13 — V11
+
+**32 seconds · 1080×1920 · native 30 fps.** The flying 3D creature and its wing
+sounds are removed. The new five-second cream ending displays the exact logo
+JPEG supplied by the user; its static bird emblem is preserved.
+
+- [Watch the V11 preview](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V11_PREVIEW.mp4)
+- [Download the V11 Full HD film](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V11_FINAL_32S.mp4)
+- [Download the V11 editable source and assets](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V11_EDITABLE_PROJECT.zip)
+- [V11 changes](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V11_CHANGELOG.md)
+- [V11 quality report](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V11_QA_REPORT.md)
+
+Latest editable project: [fenix13-v11](fenix13-v11/README.md). The first 27 seconds
+retain the V10 food, drinks, location and people-free social scenes.
+
+---
+
+# V10 archive
 
 40 seconds · 1080 × 1920 · native 30 fps · H.264 / AAC stereo.
 
@@ -15,7 +32,7 @@ A charcoal opening, compact globe-to-Taunggyi reveal, drinks, barbecue, an empty
 
 ## Editable project
 
-The latest source is [fenix13-v10](fenix13-v10/README.md). It includes Remotion / Three.js code, a native Blender scene, animated GLB, local assets, original audio stems, and reproducible rendering and verification scripts. See [the campaign script](fenix13-v10/SCRIPT.md) and [asset provenance](fenix13-v10/ASSETS.md).
+The V10 source is [fenix13-v10](fenix13-v10/README.md). It includes Remotion / Three.js code, a native Blender scene, animated GLB, local assets, original audio stems, and reproducible rendering and verification scripts. See [the campaign script](fenix13-v10/SCRIPT.md) and [asset provenance](fenix13-v10/ASSETS.md).
 
 The creature is a genuine 3D rig with a stylized finish, not photorealistic studio VFX. Food and environment shots are animated generated concept plates, not documentary footage of the actual venue. The original downloadable/vector logo was unavailable; V10 retains the prepared V9 PNG byte-for-byte. The map pin identifies Taunggyi, not a restaurant street address.
 
