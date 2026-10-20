@@ -1,26 +1,31 @@
-# FENIX /13 — RISE
+# FENIX /13 — V10
 
-**Version 9: 40 seconds at native 60 fps.** The approved phoenix gains restrained
-wing, feather-tip, tail and body motion. BBQ skewers, a separate glazed-wing dish
-and friends toasting accompany GRILL, GOOD FOOD and GOOD COMPANY. A new genuinely
-extruded 3D wordmark assembles letter by letter before the phoenix resolves into
-the crest. Original clean music and tonal effects follow the shorter edit.
+40 seconds · 1080 × 1920 · native 30 fps · H.264 / AAC stereo.
 
-1080 × 1920 • 9:16 • 60 fps • 2400 frames • H.264 • AAC 48 kHz stereo.
+A charcoal opening, compact globe-to-Taunggyi reveal, drinks, barbecue, an empty social table and a night terrace lead into an articulated 3D phoenix and a five-second brand ending. The new creature has a Blender armature, layered geometry and an authored flight performance; an ember dissolve connects it to the preserved prepared brand artwork.
 
-- [Watch / download the 40-second phone preview](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V9_PREVIEW_40S_60FPS.mp4)
-- [Download the Full HD film](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_RISE_V9_40S_60FPS.mp4)
-- [Download the editable Remotion source and assets](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_REMOTION_V9_SOURCE.zip)
-- [Revised campaign script](fenix13-rise/SCRIPT.md)
-- [Editing and rendering instructions](fenix13-rise/README.md)
-- [Asset provenance](fenix13-rise/ASSETS.md)
-- [Export verification](fenix13-rise/QUALITY_REPORT.json)
+## Downloads
 
-The latest project is `fenix13-rise/`. The approved bird uses animated 2.5D CGI
-artwork; the new logo reveal uses bevelled 3D meshes. Food, friends and lounge
-imagery are fictional campaign concepts. The geographic pin identifies Taunggyi,
-not a venue street address. Prepared-logo provenance is documented in ASSETS.md.
-All earlier projects and exports are retained.
+- [Watch the compressed preview](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V10_PREVIEW.mp4)
+- [Download the Full HD film](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V10_FINAL_40S.mp4)
+- [Watch the phoenix sequence](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V10_PHOENIX_PREVIEW.mp4)
+- [Download the editable project and assets](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V10_EDITABLE_PROJECT.zip)
+- [Read the changes from V9](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V10_CHANGELOG.md)
+- [Read quality checks and limitations](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V10_QA_REPORT.md)
+
+## Editable project
+
+The latest source is [fenix13-v10](fenix13-v10/README.md). It includes Remotion / Three.js code, a native Blender scene, animated GLB, local assets, original audio stems, and reproducible rendering and verification scripts. See [the campaign script](fenix13-v10/SCRIPT.md) and [asset provenance](fenix13-v10/ASSETS.md).
+
+The creature is a genuine 3D rig with a stylized finish, not photorealistic studio VFX. Food and environment shots are animated generated concept plates, not documentary footage of the actual venue. The original downloadable/vector logo was unavailable; V10 retains the prepared V9 PNG byte-for-byte. The map pin identifies Taunggyi, not a restaurant street address.
+
+## Previous version
+
+- [V9 preview](FENIX13_V9_PREVIEW_40S_60FPS.mp4)
+- [V9 Full HD](FENIX13_RISE_V9_40S_60FPS.mp4)
+- [V9 editable project](FENIX13_REMOTION_V9_SOURCE.zip)
+
+All earlier projects and exports remain available.
 
 Earlier exports:
 

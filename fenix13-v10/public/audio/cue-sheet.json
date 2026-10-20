@@ -1,0 +1,159 @@
+{
+  "duration": 40,
+  "tempo": 120,
+  "key": "F minor",
+  "composer": "Original FENIX /13 score",
+  "source": "scripts/score40.py",
+  "noise_sources": "Brief original band-limited transient effects only",
+  "letter_times": [],
+  "events": [
+    {
+      "time": 0.35,
+      "event": "ember ignition"
+    },
+    {
+      "time": 0.35,
+      "event": "small ignition"
+    },
+    {
+      "time": 2.75,
+      "event": "globe approach"
+    },
+    {
+      "time": 4.35,
+      "event": "Taunggyi approach"
+    },
+    {
+      "time": 5.81,
+      "event": "light transition"
+    },
+    {
+      "time": 6,
+      "event": "scene accent"
+    },
+    {
+      "time": 10.81,
+      "event": "light transition"
+    },
+    {
+      "time": 11,
+      "event": "scene accent"
+    },
+    {
+      "time": 15.81,
+      "event": "light transition"
+    },
+    {
+      "time": 16,
+      "event": "scene accent"
+    },
+    {
+      "time": 19.81,
+      "event": "light transition"
+    },
+    {
+      "time": 20,
+      "event": "scene accent"
+    },
+    {
+      "time": 23.81,
+      "event": "light transition"
+    },
+    {
+      "time": 24,
+      "event": "scene accent"
+    },
+    {
+      "time": 11.35,
+      "event": "synthesized grill sizzle"
+    },
+    {
+      "time": 12.15,
+      "event": "synthesized grill sizzle"
+    },
+    {
+      "time": 13.8,
+      "event": "synthesized grill sizzle"
+    },
+    {
+      "time": 15.0,
+      "event": "synthesized grill sizzle"
+    },
+    {
+      "time": 11.05,
+      "event": "charcoal flame swell"
+    },
+    {
+      "time": 11.32,
+      "event": "small charcoal crack"
+    },
+    {
+      "time": 11.58,
+      "event": "small charcoal crack"
+    },
+    {
+      "time": 12.22,
+      "event": "small charcoal crack"
+    },
+    {
+      "time": 13.87,
+      "event": "small charcoal crack"
+    },
+    {
+      "time": 26.6,
+      "event": "embers gather"
+    },
+    {
+      "time": 27.6,
+      "event": "phoenix anticipation"
+    },
+    {
+      "time": 28.48,
+      "event": "power downstroke air"
+    },
+    {
+      "time": 28.470000000000002,
+      "event": "wing power stroke"
+    },
+    {
+      "time": 28.6,
+      "event": "wing weight"
+    },
+    {
+      "time": 28.62,
+      "event": "reactive embers"
+    },
+    {
+      "time": 29.24,
+      "event": "power downstroke air"
+    },
+    {
+      "time": 29.23,
+      "event": "wing power stroke"
+    },
+    {
+      "time": 29.36,
+      "event": "wing weight"
+    },
+    {
+      "time": 29.38,
+      "event": "reactive embers"
+    },
+    {
+      "time": 30.05,
+      "event": "banking glide"
+    },
+    {
+      "time": 32.55,
+      "event": "creature to emblem"
+    },
+    {
+      "time": 32.7,
+      "event": "ember transformation"
+    },
+    {
+      "time": 34.35,
+      "event": "FENIX brand resolution"
+    }
+  ]
+}

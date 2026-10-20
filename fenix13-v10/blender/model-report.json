@@ -1,0 +1,9 @@
+{
+  "vertices": 100044,
+  "polygons": 98895,
+  "bones": 43,
+  "fps": 30,
+  "animation_frames": 241,
+  "construction": "Volumetric feathered mesh, Blender armature and authored pose animation",
+  "limitations": "Procedural stylized-natural creature; not a scanned production animal. Real-time fire is an authored VFX layer, not a fluid simulation."
+}

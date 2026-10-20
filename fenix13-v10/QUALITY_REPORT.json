@@ -1,0 +1,43 @@
+{
+  "file": "FENIX13_V10_FINAL_40S.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1200,
+  "duration": 40,
+  "codec": "H.264 yuv420p",
+  "audio": "AAC stereo 48 kHz",
+  "full_decode": "PASS",
+  "fast_start": true,
+  "bytes": 26149060,
+  "sha256": "cc998b34d2aa9661d20629d5fc135b85b7751bbed3ea9afa5a04deebdfe160f0",
+  "audio_master_correlation": 0.9999906666458414,
+  "audio_sample_peak_dbfs": -2.5409350281416536,
+  "last_100ms_rms_dbfs": -89.32111979957683,
+  "motion_unique_frames": {
+    "charcoal": 9,
+    "glass": 9,
+    "grill": 9,
+    "table": 9,
+    "powerstroke": 9,
+    "bank": 9,
+    "transformation": 9
+  },
+  "black_intervals": [
+    [
+      0.0,
+      0.366667,
+      0.366667
+    ]
+  ],
+  "model_joints": 43,
+  "animated_joint_count": 43,
+  "animation_duration": 8.033333778381348,
+  "model_depth": 0.7684412002563477,
+  "model_type": "Volumetric skinned geometry; procedural/stylized-natural finish",
+  "headphone_audition": "Not available in this environment",
+  "integrated_loudness_lufs": -15.57,
+  "true_peak_dbtp": -2.54,
+  "loudness_range_lu": 4.9,
+  "frame_timestamps": "All 1200 presentation timestamps verified at 1/30 second cadence"
+}
