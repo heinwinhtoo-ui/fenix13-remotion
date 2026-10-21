@@ -1,4 +1,23 @@
-# FENIX /13 — V11
+# FENIX /13 — V12
+
+**42 seconds · 1080×1920 · native 30 fps.** Slower scene pacing, smooth dissolves
+and a new bronze 3D FENIX /13 name reveal. The supplied cream logo resolves
+unchanged at the end. No flying creature returns.
+
+- [Watch the V12 preview](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V12_PREVIEW.mp4)
+- [Watch the 3D name ending](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V12_LOGO_PREVIEW.mp4)
+- [Download the V12 Full HD film](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V12_FINAL_42S.mp4)
+- [Download the V12 editable source and assets](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V12_EDITABLE_PROJECT.zip)
+- [Pacing changes](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V12_CHANGELOG.md)
+- [Quality report](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V12_QA_REPORT.md)
+
+Latest editable source: [fenix13-v12](fenix13-v12/README.md). The name uses actual
+extruded geometry derived from the supplied artwork, with per-letter movement,
+metallic edges and a moving light.
+
+---
+
+# V11 archive
 
 **32 seconds · 1080×1920 · native 30 fps.** The flying 3D creature and its wing
 sounds are removed. The new five-second cream ending displays the exact logo
@@ -10,7 +29,7 @@ JPEG supplied by the user; its static bird emblem is preserved.
 - [V11 changes](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V11_CHANGELOG.md)
 - [V11 quality report](https://raw.githubusercontent.com/heinwinhtoo-ui/fenix13-remotion/refs/heads/main/FENIX13_V11_QA_REPORT.md)
 
-Latest editable project: [fenix13-v11](fenix13-v11/README.md). The first 27 seconds
+V11 editable project: [fenix13-v11](fenix13-v11/README.md). The first 27 seconds
 retain the V10 food, drinks, location and people-free social scenes.
 
 ---

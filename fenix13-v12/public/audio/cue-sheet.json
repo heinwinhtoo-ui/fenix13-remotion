@@ -1,0 +1,120 @@
+{
+  "duration": 42,
+  "tempo": 120,
+  "key": "F minor",
+  "composer": "Original FENIX /13 score",
+  "source": "scripts/score42.py",
+  "noise_sources": "Brief original band-limited transient effects only",
+  "letter_times": [
+    34.55,
+    34.72,
+    34.89,
+    35.059999999999995,
+    35.23,
+    35.4,
+    35.57,
+    35.739999999999995
+  ],
+  "events": [
+    {
+      "time": 0.35,
+      "event": "ember ignition"
+    },
+    {
+      "time": 0.35,
+      "event": "small ignition"
+    },
+    {
+      "time": 3.85,
+      "event": "globe approach"
+    },
+    {
+      "time": 6.4,
+      "event": "Taunggyi approach"
+    },
+    {
+      "time": 8.81,
+      "event": "light transition"
+    },
+    {
+      "time": 9,
+      "event": "scene accent"
+    },
+    {
+      "time": 13.81,
+      "event": "light transition"
+    },
+    {
+      "time": 14,
+      "event": "scene accent"
+    },
+    {
+      "time": 19.81,
+      "event": "light transition"
+    },
+    {
+      "time": 20,
+      "event": "scene accent"
+    },
+    {
+      "time": 24.81,
+      "event": "light transition"
+    },
+    {
+      "time": 25,
+      "event": "scene accent"
+    },
+    {
+      "time": 29.81,
+      "event": "light transition"
+    },
+    {
+      "time": 30,
+      "event": "scene accent"
+    },
+    {
+      "time": 14.5,
+      "event": "synthesized grill sizzle"
+    },
+    {
+      "time": 16.1,
+      "event": "synthesized grill sizzle"
+    },
+    {
+      "time": 17.7,
+      "event": "synthesized grill sizzle"
+    },
+    {
+      "time": 19,
+      "event": "synthesized grill sizzle"
+    },
+    {
+      "time": 14.1,
+      "event": "charcoal flame swell"
+    },
+    {
+      "time": 14.4,
+      "event": "small charcoal crack"
+    },
+    {
+      "time": 15.1,
+      "event": "small charcoal crack"
+    },
+    {
+      "time": 16.5,
+      "event": "small charcoal crack"
+    },
+    {
+      "time": 18.1,
+      "event": "small charcoal crack"
+    },
+    {
+      "time": 33.8,
+      "event": "dimensional logo approach"
+    },
+    {
+      "time": 37.7,
+      "event": "official artwork resolution"
+    }
+  ]
+}
